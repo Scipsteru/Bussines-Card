@@ -1,0 +1,55 @@
+body {
+    margin: 20px;
+    font-family: Georgia, serif;
+    justify-content: space-between;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid #536b78;
+    box-shadow: 3px 4px #333533;
+    margin-right: 10px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #cee5f2;
+    color: #000814;
+    border: 4px solid #536b78;
+    animation-name: animation;
+    animation-duration: 3s;
+}
+
+@keyframes animation {
+    from {backround-color: #cee5f2;}
+    to {backround-color: #52b788;}
+}
+
+.card:hover {
+    background: #52b788;
+}
+
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
